@@ -35,48 +35,13 @@ After running the Flask app, the following API routes are available:
 
 The following plot shows the precipitation data over the last 12 months in the dataset:
 
-![Precipitation Over the Last 12 Months](SurfsUp/Output/precipitation_bar.png)
+![Precipitation Over the Last 12 Months](SurfsUp/output/precipitation_bar.png)
 
 ### Temperature Analysis
 
 A histogram of temperature observations for the most active station (`USC00519281`) over the last year is shown below:
 
-![Temperature Histogram](SurfsUp/Output/temperature_histogram.png)
-
-## Setup Instructions
-
-1. **Clone the Repository**:
-
-    ```sh
-    git clone https://github.com/kahan17/sqlalchemy-challenge.git
-    ```
-
-2. **Create a Virtual Environment** (recommended):
-
-    ```sh
-    conda create --name sqlalchemy_env python=3.9
-    conda activate sqlalchemy_env
-    ```
-
-3. **Install Required Packages**:
-
-    Install the required Python packages using `pip`:
-
-    ```sh
-    pip install -r requirements.txt
-    ```
-
-4. **Run the Flask App**:
-
-    Navigate to the `SurfsUp` directory and run the Flask app:
-
-    ```sh
-    python app.py
-    ```
-
-5. **Access the API**:
-
-    Open your browser and go to `http://127.0.0.1:5000/` to view all available routes.
+![Temperature Histogram](SurfsUp/output/temperature_histogram.png)
 
 ## Dependencies
 
